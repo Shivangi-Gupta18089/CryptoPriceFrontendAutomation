@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Assessment-Frontend Automation-Framework">
+    <test name="Assessment Framework">
+        <parameter name="headless" value="False"/>
+        <parameter name="staging" value="True"/>
+        <parameter name="webDriverManager" value="False"/>
+        <classes>
+            <class name="TestSuites.coinMarketCap"></class>
+        </classes>
+    </test>
+</suite>
